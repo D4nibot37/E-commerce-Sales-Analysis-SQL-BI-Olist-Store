@@ -21,6 +21,7 @@ Raw Data → Staging → Production (Clean) → Analytical View → BI Dashboard
 🏗️ Data Architecture
 
 
+
 1️⃣ Staging Layer
 
 Raw CSV data is ingested into the staging schema using TEXT data types to guarantee import stability.
@@ -42,6 +43,7 @@ stg_order_items
 stg_customers
 
 stg_products
+
 
 
 
@@ -77,6 +79,7 @@ Design decision:
 Data was normalized to prevent redundancy and preserve referential integrity.
 
 
+
 3️⃣ Analytical View
 
 A denormalized reporting view was created:
@@ -102,6 +105,7 @@ total_item_amount
 This is the layer connected to Power BI.
 
 
+
 📊 Key Business Metrics
 
 Total Revenue
@@ -121,9 +125,11 @@ Top Sellers
 Monthly Revenue Evolution
 
 
+
 🔍 Data Validation & Integrity Checks
 
 Validation was performed in SQL before dashboard development.
+
 
 
 ✅ Primary Key Checks
@@ -137,6 +143,7 @@ customers
 products
 
 sellers
+
 
 
 ✅ Revenue Reconciliation
@@ -190,6 +197,7 @@ São Paulo dominates revenue contribution.
 Revenue is influenced not only by volume but also by pricing strategy.
 
 
+
 🛠️ Tools Used
 
 PostgreSQL
@@ -197,6 +205,7 @@ PostgreSQL
 Power BI
 
 GitHub
+
 
 
 🎯 Key Learning Outcomes
