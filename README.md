@@ -1,4 +1,13 @@
 🛒 Brazilian E-Commerce Analytics (Olist) – End-to-End Data Pipeline & BI Dashboard
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-brightgreen?style=for-the-badge)
+![DAX](https://img.shields.io/badge/DAX-Advanced-blue?style=for-the-badge)
+
+<br><br>
+
+
 📌 Project Overview
 This project presents an end-to-end analytical solution using the Brazilian E-Commerce Public Dataset by Olist. The goal was to transform raw transactional data into a scalable, high-performance Business Intelligence dashboard to analyze sales trends, customer behavior, and seller performance.
 
