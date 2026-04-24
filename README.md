@@ -73,7 +73,16 @@ Developed robust DAX measures to track critical business KPIs, enabling deep-div
 <br>
 
 ---
+---
 
+## ✅ **Data Integrity & Reconciliation**
+
+A critical step in this project was the **reconciliation process** between the source (PostgreSQL) and the semantic model (Power BI). 
+
+* **Revenue Validation:** SQL Query Output ($15,843,553.24) vs. Power BI Measure ($15.84M). **Status: 100% Match.**
+* **Order Volume:** SQL Count (98,666) vs. Power BI Distinct Count (98.67K). **Status: 100% Match.**
+* **Consistency:** Applied a specific "Data Quality" filter in the SQL pipeline to ensure only completed transactions were analyzed, documenting a controlled 775-order discrepancy from the original raw dataset.
+<br>
 ## 💡 **Skills Demonstrated**
 
 * **Data Engineering:** Relational Databases (PostgreSQL), ETL Pipelines, Data Cleansing, SQL Joins.
